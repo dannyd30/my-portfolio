@@ -1,0 +1,13 @@
+.home{
+    color: #ffffff;
+   
+    justify-content: space-between;
+    &>*{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+:host {
+    flex-grow: 1;
+    display: flex;
+  }

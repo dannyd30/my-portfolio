@@ -1,0 +1,38 @@
+.career{
+    width: 90%;
+    color: #ffffff;
+   
+    justify-content: center;
+    align-self: flex-end;
+    font-size: 24px;
+    .career-header{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e5e5;
+        a{
+            text-decoration: none;
+            color: #0c2685;
+            &:hover{
+                cursor: pointer;
+            }
+
+        }
+    }
+    .career-details{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        @media (max-width: 768px)  {
+            align-items: stretch;
+            flex-flow: column wrap;
+             flex-grow: 1;
+        }
+    }
+
+}
+:host {
+    flex-grow: 1;
+    display: flex;
+}

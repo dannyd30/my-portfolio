@@ -1,0 +1,32 @@
+.work{
+    
+    font-size: 18px;
+    .work-header{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #e5e5e5;
+        a{
+            text-decoration: none;
+            color: #0c2685;
+            &:hover{
+                cursor: pointer;
+            }
+
+        }
+    }
+    .work-details{
+        display: flex;
+        flex-flow: row nowrap;
+        .work-block{
+            display: flex;
+            flex-direction: row;
+            img{
+                width: 25%;
+                height:25%;
+            }
+        }
+    }
+    
+}

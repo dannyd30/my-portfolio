@@ -1,0 +1,35 @@
+.about{
+    
+    font-size: 24px;
+    width: 90%;
+    color: #ffffff;
+    
+    justify-content: center;
+    align-self: flex-end;
+    div.about-me{
+        flex: 1;
+        align-self: center;
+        h4{
+            text-align: center;
+        }
+        p{
+            margin: 5% 1%;
+            font-size: 18px;
+        }
+    }
+    div.about-me-cover{
+        flex: 1;
+        align-self: center;
+        text-align: center;
+        background-color: cadetblue;
+        color: #ffe4c4;
+        code{
+           
+        }
+    }
+
+}
+:host {
+    flex-grow: 1;
+    display: flex;
+}
